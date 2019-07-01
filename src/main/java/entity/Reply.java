@@ -11,6 +11,7 @@ public class Reply {
     private String replyContent;
     private Integer replyCommentID;
     private String replyTime;
+    private Integer replyWriter;
 
     public Reply() {
     }
@@ -65,5 +66,13 @@ public class Reply {
 
     public void setReplyTime(String replyTime) {
         this.replyTime = replyTime;
+    }
+
+    public Integer getReplyWriter() {
+        return replyWriter;
+    }
+
+    public void setReplyWriter(Integer replyWriter) {
+        this.replyWriter = replyWriter;
     }
 }
