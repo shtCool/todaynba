@@ -1,10 +1,5 @@
 package entity;
 
-/**
- * Author:helloboy
- * Date:2019-07-01 11:42
- * Description:<描述>
- */
 public class Reply {
     private Integer replyId;
     private String replyName;

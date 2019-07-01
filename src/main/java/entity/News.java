@@ -1,10 +1,5 @@
 package entity;
 
-/**
- * Author:helloboy
- * Date:2019-07-01 11:28
- * Description:<描述>
- */
 public class News {
     private Integer newsId;
     private String newsTime;

@@ -1,10 +1,5 @@
 package entity;
 
-/**
- * Author:helloboy
- * Date:2019-07-01 11:37
- * Description:<描述>
- */
 public class Comment {
     private Integer commentId;
     private String commentTime;

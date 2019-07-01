@@ -10,7 +10,7 @@ public class User {
     private String userName;
     private String userPassword;
     private String userSex;
-    private Integer useRage;
+    private Integer userAge;
     private String userRemark;
 
     public User() {
@@ -20,12 +20,12 @@ public class User {
         this.userId = userId;
     }
 
-    public User(Integer userId, String userName, String userPassword, String userSex, Integer useRage, String userRemark) {
+    public User(Integer userId, String userName, String userPassword, String userSex, Integer userAge, String userRemark) {
         this.userId = userId;
         this.userName = userName;
         this.userPassword = userPassword;
         this.userSex = userSex;
-        this.useRage = useRage;
+        this.userAge = userAge;
         this.userRemark = userRemark;
     }
 
@@ -61,12 +61,12 @@ public class User {
         this.userSex = userSex;
     }
 
-    public Integer getUseRage() {
-        return useRage;
+    public Integer getuserAge() {
+        return userAge;
     }
 
-    public void setUseRage(Integer useRage) {
-        this.useRage = useRage;
+    public void setuserAge(Integer userAge) {
+        this.userAge = userAge;
     }
 
     public String getUserRemark() {

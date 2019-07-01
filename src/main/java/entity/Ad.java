@@ -1,10 +1,5 @@
 package entity;
 
-/**
- * Author:helloboy
- * Date:2019-07-01 11:45
- * Description:<描述>
- */
 public class Ad {
     private Integer adID;
     private String adContent;

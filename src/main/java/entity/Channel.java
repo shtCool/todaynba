@@ -1,10 +1,5 @@
 package entity;
 
-/**
- * Author:helloboy
- * Date:2019-07-01 11:44
- * Description:<描述>
- */
 public class Channel {
     private Integer channelId;
     private String channelName;
